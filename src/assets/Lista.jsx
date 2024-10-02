@@ -21,8 +21,11 @@ const Lista = () => {
             <li
             style={{margin: "20px", color: "yellowgreen", background:"white"}}
             key={idx}> {/* Identifica de forma separada cada item da lista */}
-                {item.nome}
+                <p>{item.nome}</p>
+                <p>{item.descricao}</p>
+            
             </li>
+           
         )
     }
 
